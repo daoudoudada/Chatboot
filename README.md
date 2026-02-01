@@ -43,7 +43,7 @@
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/ai-chatbot-app.git
+git clone https://github.com/daoudoudada/ai-chatbot-app.git
 cd ai-chatbot-app
 ```
 
@@ -366,9 +366,9 @@ Este proyecto está bajo la licencia MIT. Ver [LICENSE](LICENSE) para más detal
 
 ## 📞 Soporte
 
-- **Issues**: [GitHub Issues](https://github.com/tu-usuario/ai-chatbot-app/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/tu-usuario/ai-chatbot-app/discussions)
-- **Email**: tu-email@example.com
+- **Issues**: [GitHub Issues](https://github.com/daoudoudada/ai-chatbot-app/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/daoudoudada/ai-chatbot-app/discussions)
+- **Email**: oudadadaoud21@gmail.com
 
 ## 🌟 Agradecimientos
 
@@ -383,6 +383,8 @@ Este proyecto está bajo la licencia MIT. Ver [LICENSE](LICENSE) para más detal
 
 **[⬆ Volver al inicio](#-ai-chatbot---full-stack-application)**
 
-Hecho con ❤️ por [Tu Nombre]
+Hecho con ❤️ por [Daoud Oudada](https://www.linkedin.com/in/daoud-oudada/)
+
+**Email**: oudadadaoud21@gmail.com | **LinkedIn**: [Daoud Oudada](https://www.linkedin.com/in/daoud-oudada/)
 
 </div>
