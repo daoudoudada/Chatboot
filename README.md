@@ -358,11 +358,6 @@ python run.py
 git add .
 git commit -m "Descripción clara del cambio"
 git push origin mi-feature
-```
-
-## 📝 Licencia
-
-Este proyecto está bajo la licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
 ---
 
 <div align="center">
