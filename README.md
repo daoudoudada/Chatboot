@@ -363,20 +363,6 @@ git push origin mi-feature
 ## 📝 Licencia
 
 Este proyecto está bajo la licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
-
-## 📞 Soporte
-
-- **Issues**: [GitHub Issues](https://github.com/daoudoudada/ai-chatbot-app/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/daoudoudada/ai-chatbot-app/discussions)
-- **Email**: oudadadaoud21@gmail.com
-
-## 🌟 Agradecimientos
-
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [SQLAlchemy](https://www.sqlalchemy.org/)
-- [OpenAI](https://openai.com/)
-- [Google Gemini](https://ai.google.dev/)
-
 ---
 
 <div align="center">
