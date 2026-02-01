@@ -383,7 +383,7 @@ Este proyecto está bajo la licencia MIT. Ver [LICENSE](LICENSE) para más detal
 
 **[⬆ Volver al inicio](#-ai-chatbot---full-stack-application)**
 
-Hecho con ❤️ por [Daoud Oudada](https://www.linkedin.com/in/daoud-oudada/)
+Hecho por [Daoud Oudada](https://www.linkedin.com/in/daoud-oudada/)
 
 **Email**: oudadadaoud21@gmail.com | **LinkedIn**: [Daoud Oudada](https://www.linkedin.com/in/daoud-oudada/)
 
