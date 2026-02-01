@@ -1,0 +1,49 @@
+📁 AI CHATBOT - ESTRUCTURA DEL PROYECTO
+==========================================
+
+ai-chatbot/
+│
+├── 📄 README.md                    # Documentación principal
+├── 📄 QUICKSTART.md               # Guía de inicio rápido
+├── 📄 CONTRIBUTING.md             # Guía para contribuir
+├── 📄 LICENSE                     # Licencia MIT
+├── 📄 .gitignore                  # Archivos ignorados por git
+├── 📄 .env.example                # Ejemplo de variables de entorno
+├── 📄 requirements.txt            # Dependencias de Python
+├── 🐍 run.py                      # Script para ejecutar el servidor
+│
+├── 📂 backend/                    # BACKEND (FastAPI + Python)
+│   ├── __init__.py
+│   ├── 📄 main.py                 # Aplicación principal de FastAPI
+│   ├── 📄 config.py               # Configuración y variables de entorno
+│   ├── 📄 database.py             # Conexión a la base de datos
+│   ├── 📄 models.py               # Modelos de SQLAlchemy
+│   ├── 📄 schemas.py              # Schemas de Pydantic
+│   ├── 📄 auth.py                 # Autenticación JWT
+│   ├── 📄 ai_service.py           # Integración con APIs de IA
+│   │
+│   ├── 📂 routes/                 # Endpoints de la API
+│   │   ├── __init__.py
+│   │   ├── 📄 auth.py             # Rutas de autenticación
+│   │   ├── 📄 conversations.py   # Rutas de conversaciones
+│   │   └── 📄 chat.py             # Rutas de chat con IA
+│   │
+│   └── 📂 tests/                  # Tests unitarios
+│       ├── __init__.py
+│       └── 📄 test_api.py         # Tests de la API
+│
+├── 📂 frontend/                   # FRONTEND (HTML + CSS + JS)
+│   ├── 📄 index.html              # Estructura HTML
+│   ├── 📄 styles.css              # Estilos CSS
+│   └── 📄 app.js                  # Lógica JavaScript
+│
+├── 📂 database/                   # Base de datos
+│   └── 📄 schema.sql              # Schema SQL (PostgreSQL)
+│
+└── 📂 docs/                       # Documentación
+    ├── 📄 CUSTOMIZATION.md        # Guía de personalización
+    ├── 📄 DEPLOYMENT.md           # Guía de despliegue
+    └── 📄 EXTRA_FEATURES.md       # Features extras
+
+
+TOTAL: 28 archivos organizados profesionalmente

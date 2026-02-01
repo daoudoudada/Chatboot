@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot - Asistente Inteligente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Página de Login/Registro -->
+    <div id="auth-page" class="page active">
+        <div class="auth-container">
+            <div class="auth-header">
+                <h1>🤖 AI Chatbot</h1>
+                <p>Asistente experto en análisis de datos y machine learning</p>
+            </div>
+            
+            <!-- Login Form -->
+            <div id="login-form" class="auth-form active">
+                <h2>Iniciar Sesión</h2>
+                <form id="login">
+                    <div class="form-group">
+                        <label for="login-email">Email</label>
+                        <input type="email" id="login-email" required placeholder="tu@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Contraseña</label>
+                        <input type="password" id="login-password" required placeholder="••••••••">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                    <div class="auth-toggle">
+                        ¿No tienes cuenta? <a href="#" id="show-register">Regístrate aquí</a>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Register Form -->
+            <div id="register-form" class="auth-form">
+                <h2>Crear Cuenta</h2>
+                <form id="register">
+                    <div class="form-group">
+                        <label for="register-username">Nombre de usuario</label>
+                        <input type="text" id="register-username" required placeholder="usuario123">
+                    </div>
+                    <div class="form-group">
+                        <label for="register-email">Email</label>
+                        <input type="email" id="register-email" required placeholder="tu@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="register-password">Contraseña</label>
+                        <input type="password" id="register-password" required placeholder="mínimo 6 caracteres">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Crear Cuenta</button>
+                    <div class="auth-toggle">
+                        ¿Ya tienes cuenta? <a href="#" id="show-login">Inicia sesión aquí</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Página Principal de Chat -->
+    <div id="chat-page" class="page">
+        <div class="chat-container">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <h2>💬 Conversaciones</h2>
+                    <button id="new-chat-btn" class="btn btn-icon" title="Nueva conversación">+</button>
+                </div>
+                
+                <div class="conversations-list" id="conversations-list">
+                    <!-- Las conversaciones se cargarán dinámicamente -->
+                </div>
+                
+                <div class="sidebar-footer">
+                    <div class="user-info">
+                        <span id="user-name">Usuario</span>
+                    </div>
+                    <button id="logout-btn" class="btn btn-secondary">Cerrar Sesión</button>
+                </div>
+            </aside>
+
+            <!-- Chat Area -->
+            <main class="chat-area">
+                <!-- Welcome Screen -->
+                <div id="welcome-screen" class="welcome-screen">
+                    <div class="welcome-content">
+                        <h1>🤖 Bienvenido al AI Chatbot</h1>
+                        <p>Soy tu asistente experto en análisis de datos y machine learning</p>
+                        <div class="features">
+                            <div class="feature">
+                                <span class="feature-icon">📊</span>
+                                <h3>Análisis de datos</h3>
+                                <p>Te ayudo a entender y analizar datos</p>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">🧠</span>
+                                <h3>Machine Learning</h3>
+                                <p>Explico algoritmos y conceptos de ML</p>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">💻</span>
+                                <h3>Código en Python</h3>
+                                <p>Proporciono ejemplos de código prácticos</p>
+                            </div>
+                        </div>
+                        <p class="start-hint">👆 Crea una nueva conversación o selecciona una existente</p>
+                    </div>
+                </div>
+
+                <!-- Chat Messages -->
+                <div id="chat-messages" class="chat-messages" style="display: none;">
+                    <!-- Los mensajes se cargarán dinámicamente -->
+                </div>
+
+                <!-- Chat Input -->
+                <div id="chat-input-container" class="chat-input-container" style="display: none;">
+                    <form id="chat-form">
+                        <textarea 
+                            id="message-input" 
+                            placeholder="Escribe tu mensaje..." 
+                            rows="1"
+                        ></textarea>
+                        <button type="submit" class="btn btn-send" id="send-btn">
+                            <span>Enviar</span>
+                        </button>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
